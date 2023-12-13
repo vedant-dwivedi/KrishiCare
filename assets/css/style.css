@@ -50,13 +50,8 @@
 
 }
 
+  /* #RESET */
 
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *, *::before, *::after {
   margin: 0;
@@ -160,13 +155,8 @@ body { background: var(--white); }
   text-align: center;
 }
 
+  /* #HEADER */
 
-
-
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
 
 .header {
   position: fixed;
@@ -218,13 +208,7 @@ body { background: var(--white); }
 
 :is(.navbar-link, .header-action-link):is(:hover, :focus) { color: var(--majorelle-blue); }
 
-
-
-
-
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
+  /* #HERO */
 
 .hero {
   padding: 125px 0 var(--section-padding);
@@ -268,13 +252,7 @@ body { background: var(--white); }
 
 .hero-banner img { width: 100%; }
 
-
-
-
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
+  /* #ABOUT */
 
 .about { padding-block: var(--section-padding); }
 
@@ -358,12 +336,7 @@ body { background: var(--white); }
 .about-card:hover .card-text { color: hsla(0, 0%, 100%, 0.5); }
 
 
-
-
-
-/*-----------------------------------*\
-  #FEATURES
-\*-----------------------------------*/
+  /* #FEATURES */
 
 .features {
   padding-block: var(--section-padding);
@@ -499,13 +472,8 @@ body { background: var(--white); }
 
 .blog-link-btn:is(:hover, :focus) { color: var(--sapphire); }
 
+  /* #CONTACT */
 
-
-
-
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
 
 .contact {
   padding-block: var(--section-padding);
@@ -579,13 +547,7 @@ textarea.input-field {
 
 .contact-link address { font-style: normal; }
 
-
-
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
+  /* #FOOTER */
 
 footer {
   background: var(--raisin-black-1);
@@ -660,12 +622,7 @@ footer .logo { margin-bottom: 25px; }
 .copyright a:is(:hover, :focus) { color: var(--white); }
 
 
-
-
-
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
+  /* #MEDIA QUERIES */
 
 /**
  * responsive for larger than 450px screen
@@ -691,8 +648,6 @@ footer .logo { margin-bottom: 25px; }
     padding-block: 12.5px;
   }
 
-
-
   /**
    * ABOUT
    */
@@ -703,9 +658,6 @@ footer .logo { margin-bottom: 25px; }
   }
 
 }
-
-
-
 
 
 /**
@@ -728,8 +680,6 @@ footer .logo { margin-bottom: 25px; }
 
   }
 
-
-
   /**
    * REUSED STYLE
    */
@@ -746,9 +696,6 @@ footer .logo { margin-bottom: 25px; }
   }
 
 }
-
-
-
 
 
 /**
@@ -778,15 +725,11 @@ footer .logo { margin-bottom: 25px; }
     margin-inline: auto;
   }
 
-
-
   /**
    * ABOUT
    */
 
   .about-list { grid-template-columns: 1fr 1fr; }
-
-
 
   /**
    * CONTACT
@@ -799,8 +742,6 @@ footer .logo { margin-bottom: 25px; }
 
   .wrapper-flex .input-wrapper { width: 50%; }
 
-
-
   /**
    * FOOTER
    */
@@ -808,10 +749,6 @@ footer .logo { margin-bottom: 25px; }
   .footer-link-box { grid-template-columns: repeat(3, 1fr); }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 992px screen
@@ -930,10 +867,6 @@ footer .logo { margin-bottom: 25px; }
     grid-row: 1 / 2;
   }
 
-
-
-  
-
   .blog-list { grid-template-columns: repeat(3, 1fr); }
 
   .blog .section-text { margin-bottom: 50px; }
@@ -974,10 +907,6 @@ footer .logo { margin-bottom: 25px; }
   .footer-list { width: 140px; }
 
 }
-
-
-
-
 
 /**
  * responsive for larger than 1200px screen
