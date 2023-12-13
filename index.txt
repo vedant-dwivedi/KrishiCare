@@ -140,26 +140,20 @@ placeholder = Type Your Message
 Send Message
 <ion-icon name="paper-plane-outline"></ion-icon>
 
-<ion-icon name="mail-outline"></ion-icon>
-: support@website.com
-
-<ion-icon name="globe-outline"></ion-icon>
-: www.website.com
-
 <ion-icon name="call-outline"></ion-icon>
-: (+001) 123 456 7890
+: 9876543210
 
 <ion-icon name="time-outline"></ion-icon>
-: 9:00 AM - 6:00 PM
+: 24/7
 
 <ion-icon name="location-outline"></ion-icon>
-: 1644 Deer Ridge Drive Rochelle Park, NJ 07662
+: Bharat
 
 
 
 # FOOTER
 
-alt = Landio logo
+alt = KrishiCare logo
 
 Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum ante ipsum primis in faucibus ultrices posuere cubilia.
 
@@ -171,14 +165,14 @@ Cras ultricies mi eu turpis sit hendrerit fringilla vestibulum ante ipsum primis
 ABOUT US
 Works
 Strategy
-Releases
-Press
+Tools
+Careers
 Mission
 
 CUSTOMERS
-Tranding
-Popular
-Customers
+Conversations
+Reviews
+Products
 Features
 
 SUPPORT
@@ -188,4 +182,4 @@ Customer Service
 Get Started
 Guide
 
-&copy; 2022 codewithsadee. All Right Reserved
+&copy; 2023 KrishiCare. All Right Reserved
